@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('https://www.kaggle.com/datasets/waqi786/youth-smoking-and-drug-dataset')
+data = pd.read_csv('https://raw.githubusercontent.com/muskan18sharma/my-streamlit-app/refs/heads/main/youth_smoking_drug_data_10000_rows_expanded.csv')
 
 # Introduction
 st.title("Youth Smoking & Drug Use: Uncovering Trends and Insights")
